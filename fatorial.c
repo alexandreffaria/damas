@@ -12,6 +12,7 @@ unsigned fat (int n){
 
 void main(void){
     int k;
+    puts("Só digitar o numero que voce quer o fatorial\n");
     while(scanf("%d", &k)){
         printf("%d! = %u\n", k, fat(k));
     }
